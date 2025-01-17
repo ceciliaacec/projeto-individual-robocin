@@ -14,10 +14,8 @@ Este projeto implementa a comunicação entre o microcontrolador STM32F767ZI e o
    - **GND**: Conecte ao **GND**
    - **SCL**: Conecte ao pino **PB8**
    - **SDA**: Conecte ao pino **PB9**
-2. Use o [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html) para configurar os periféricos.
-3. Compile o código com o [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) ou outra IDE compatível.
-4. Carregue o firmware no microcontrolador.
-5. Teste os valores de leitura utilizando o log de testes disponibilizado.
+2. Carregue o firmware no microcontrolador.
+3. Teste os valores de leitura utilizando o log de testes disponibilizado.
 
 ## Resultados esperados
 - Leitura contínua de deslocamento angular e velocidade angular em rad/s.
